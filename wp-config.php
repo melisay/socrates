@@ -20,19 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'socrates');
+define('DB_NAME', 'socratesWP');
 
 /** MySQL database username */
-define('DB_USER', 'socrates');
+define('DB_USER', 'socratesWP');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'b1l1$ik1');
+define('DB_PASSWORD', 'test');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'l/L2+^E&Z#)9pKhy~+(6Rj/s|>^&k5UvHjwHDCw[Pl9Tf{>;hc!=Vp5nT|=%&r+8');
+define('SECURE_AUTH_KEY',  'CCvRT. lw9^x!9c35^-oeZbrJSJ3fa;wfF,QV6Z7RMo6T_{-oBlZ70hCOO&K3Rrp');
+define('LOGGED_IN_KEY',    '}@|wA3w|x FjKJ<uGo(#*k,3o/U_Uu{oMw@.9po5+n&E,s#^( &IP]>G-,&vf+w&');
+define('NONCE_KEY',        'G]CgHi!gc;:9PG#+1kx!oxN0X&[91>H_|XR.Ci|O!-8DPIoQoo,:2E%.?WOXq}t(');
+define('AUTH_SALT',        'E#+pm5C) ^n+iM=f[*;8uO!)8ZwHr-/Y&+lSGKB!`kiRC&p*vCwnQVUHG}Kw#|6m');
+define('SECURE_AUTH_SALT', 'D!r+alZOrZ*Yeb|X#pkcI#U-~/nAb1Dr/ |YpYy] q!YHwk|i#w5aOb*0[DwPAPw');
+define('LOGGED_IN_SALT',   'VpImlwi$?`{$.aBq%@ClpI5ngLBR+,3t]bk,D5%|=zvbvbv7-7kSaxN?[VI!_B--');
+define('NONCE_SALT',       't&_x+svX[q/n0g{*RVRdx%&w8[u>cN u|3D$X?;kZ%J}nyH&aSS<z|s*y9DI%*6y');
 
 /**#@-*/
 
