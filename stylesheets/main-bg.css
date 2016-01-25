@@ -15,68 +15,67 @@
 
 /*INTRO-01*/
 .featured-thumb-01{
-	background-image: url('http://placehold.it/500x330');
+	background-image: url('../images/featured/01.jpg');
 }
 .featured-thumb-02{
-	background-image: url('http://placehold.it/500x330');
+	background-image: url('../images/featured/02.jpg');
 }
 .featured-thumb-03{
-	background-image: url('http://placehold.it/500x330');
+	background-image: url('../images/featured/03.jpg');
 }
 .featured-thumb-04{
-	background-image: url('http://placehold.it/500x330');
+	background-image: url('../images/featured/04.jpg');
 }
 /*INTRO-02*/
 .intro-02{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/bg/05.jpg');
 }
 /*INTRO-03*/
 .intro-03{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/bg/06.jpg');
 }
 /*INTRO-04*/
 .intro-04{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/bg/08.jpg');
 }
 /*INTRO-05*/
 .intro-05-carousel-item-01{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/showcase/01.jpg');
 }
 .intro-05-carousel-item-02{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/showcase/02.jpg');
 }
 .intro-05-carousel-item-03{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/showcase/03.jpg');
 }
 .intro-05-carousel-item-04{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/showcase/04.jpg');
 }
 /*INTRO-06*/
 .wallpaper-panel{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/people.jpg');
 }
 
 /*--------------------------------------------------------------*/
 /* PAGES AND SECTIONS */
 /*--------------------------------------------------------------*/
 .about-bg{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/bg/01.jpg');
 }
 .features-bg{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/bg/02.jpg');
 }
 .promo-bg{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/bg/02.jpg');
 }
 /*SINGLE PROJECT PAGE demo*/
 .single-project-carousel-item-01{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/project/01.jpg');
 }
 .single-project-carousel-item-02{
-	background-image: url('http://placehold.it/1500x1050');
+	background-image: url('../images/project/02.jpg');
 }
 
 /*--------------------------------------------------------------*/
 /* MISC ELEMENTS */
 /*--------------------------------------------------------------*/
-
