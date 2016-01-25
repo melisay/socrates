@@ -72,6 +72,13 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: normal;
 }
 
+.circle-icon {
+    background: #069eb1;
+    padding: 30px;
+    border-radius: 50%;
+    color: #fff;
+}
+
 @media (min-width: 1024px) and (max-width: 5000px) {
 	.container{
 		max-width: 1000px;
