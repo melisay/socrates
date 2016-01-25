@@ -1,0 +1,1322 @@
+/*MAIN-RESPONSIVE.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: ADRIA */
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*==========================*/
+/*ALL DEVICE OPTIMIZATION*/
+/*===========================*/
+
+
+/*Huge Displays*/
+@media (min-width: 3000px) {
+}
+
+/*Projector Screens and Ver Large Monitors*/
+@media (min-width: 2561px) {
+}
+
+/*iMac 27, HD Screens and Large Monitors*/
+@media (min-width: 1921px) and (max-width: 2560px) {
+
+}
+
+/*Large Widescreen Monitors*/
+@media (max-width: 1920px) {
+}
+
+/*Medium Widescreen Monitors*/
+@media (max-width: 1680px) {
+}
+
+/*Large Widescreen Laptops*/
+@media (max-width: 1440px) {
+}
+
+/*Common Widescreen Laptops*/
+@media (max-width: 1366px) {
+}
+
+
+/*Very Large Tablets and Medium Laptops*/
+@media (max-width: 1280px) {
+}
+
+/*Notebooks and Small Laptops*/
+@media (max-width: 1199px) {
+	.standard-header{
+		display: none;
+	}
+}
+
+/*iPad Landscape Mode and Large Tablets */
+@media (max-width: 1024px) {
+	.standard-header{
+		display: none;
+	}
+}
+
+/*Small Desktop and Very Small Notebook */
+@media (max-width: 990px) {
+	
+	.container{
+	    max-width: 950px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 42px;
+    line-height: 49px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 34px;
+    line-height: 41px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 22px;
+    line-height: 29px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 20px;
+    line-height: 27px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 20px;
+		line-height: 27px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider nav{
+		top: 150px;
+	}
+	.features-inner, .promo-inner{
+		padding: 100px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+}
+
+/*Medium Tablets */
+@media (max-width: 800px) {
+	
+	.container{
+	    max-width: 760px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 42px;
+    line-height: 49px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 34px;
+    line-height: 41px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 22px;
+    line-height: 29px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 20px;
+    line-height: 27px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 20px;
+		line-height: 27px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider nav{
+		top: 150px;
+	}
+	.features-inner, .promo-inner{
+		padding: 100px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+}
+
+
+/*iPad Portrait Mode, iPad Mini and Small Tablets */
+@media (max-width: 768px) {
+	
+	.container{
+	    max-width: 728px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 35px;
+	}
+	.add-bottom-half{
+		padding-bottom: 35px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 42px;
+    line-height: 49px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 34px;
+    line-height: 41px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 22px;
+    line-height: 29px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 20px;
+    line-height: 27px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 20px;
+		line-height: 27px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider nav{
+		top: 150px;
+	}
+	.features-inner, .promo-inner{
+		padding: 100px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+}
+
+/*iPhone 6Plus Landscape Mode*/
+@media screen and (max-width: 736px) {
+	
+	.container{
+	    max-width: 696px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 38px;
+    line-height: 45px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 30px;
+    line-height: 37px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 18px;
+    line-height: 25px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 16px;
+    line-height: 23px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 14px;
+		line-height: 21px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider nav{
+		top: 150px;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+}
+
+/*iPhone 6 Landscape Mode*/
+@media screen and (max-width: 667px) {
+	
+	.container{
+	    max-width: 627px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 38px;
+    line-height: 45px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 30px;
+    line-height: 37px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 18px;
+    line-height: 25px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 16px;
+    line-height: 23px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 14px;
+		line-height: 21px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider nav{
+		top: 150px;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+}
+
+/*Medium Smart Phones v2*/
+@media screen and (max-width: 640px) {
+	
+	.container{
+	    max-width: 600px;
+	    padding-left:20px;
+	    padding-right:20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 38px;
+    line-height: 45px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 30px;
+    line-height: 37px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 18px;
+    line-height: 25px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 16px;
+    line-height: 23px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 14px;
+		line-height: 21px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider nav{
+		top: 150px;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+}
+	
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px)  {
+	
+	.container{
+	    max-width: 560px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 38px;
+    line-height: 45px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 30px;
+    line-height: 37px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 18px;
+    line-height: 25px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 16px;
+    line-height: 23px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 14px;
+		line-height: 21px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider nav{
+		top: 150px;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+}
+	
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+	
+	.container{
+	    max-width: 440px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 36px;
+    line-height: 43px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 28px;
+    line-height: 33px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 16px;
+    line-height: 23px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 14px;
+    line-height: 21px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 12px;
+		line-height: 19px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider ul li{
+		width: 70%;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+}
+
+
+/*iPhone 6Plus Portrait Mode*/
+@media screen and (max-width: 414px) {
+	
+	.container{
+	    max-width: 374px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 36px;
+    line-height: 43px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 28px;
+    line-height: 33px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 16px;
+    line-height: 23px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 14px;
+    line-height: 21px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 12px;
+		line-height: 19px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider ul li{
+		width: 70%;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+
+}
+
+
+/*iPhone 6 Portrait Mode*/
+@media screen and (max-width: 375px) {
+	
+	.container{
+	    max-width: 335px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 32px;
+    line-height: 39px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 24px;
+    line-height: 31px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 14px;
+    line-height: 21px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 12px;
+    line-height: 19px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 9px;
+		line-height: 16px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider ul li{
+		width: 70%;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+
+}
+
+/*Other Major Small Smart Phones*/
+@media screen and (max-width: 360px) {
+	
+	.container{
+	    max-width: 320px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 32px;
+    line-height: 39px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 24px;
+    line-height: 31px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 14px;
+    line-height: 21px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 12px;
+    line-height: 19px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 9px;
+		line-height: 16px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider ul li{
+		width: 70%;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+
+}
+
+/*iPhone (5S, 5, 4S and 4) Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+	
+	.container{
+	    max-width: 280px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.add-top-half{
+		padding-top: 15px;
+	}
+	.add-bottom-half{
+		padding-bottom: 15px;
+	}
+	.mob-center{
+		text-align: center;
+	}
+	.mob-add-top{
+		margin-top: 30px;
+	}
+	.mob-add-bottom{
+		margin-bottom:30px;
+	}
+	.text-left, .text-right, p, h1, h2, h3, h4, h5{
+		text-align: center;
+	}
+	.btn{
+		width: 100%;
+	}
+	.page-section, .separator-section{
+		padding: 70px 0;
+	}
+	img.img-responsive{
+		display: inline-block;
+	}
+	.standard-header{
+		display: none;
+	}
+	#ws .price h1{
+    font-size: 32px;
+    line-height: 39px;
+	}
+	.caption-panel h1,.intro-01 .text-rotator span, .intro-02 h1 > strong, 
+	.intro-03 h2, .intro-04 h1 > strong, .intro-05 h1, .promo h1, .single-project h1{
+    font-size: 24px;
+    line-height: 31px;
+	}
+	.welcome-text, .main-title, .video-caption h3>span {
+    font-size: 14px;
+    line-height: 21px;
+	}
+	.explore-link a, .promo-text, .feature-heading > span, .testimonial-text,
+	.team-stage h3, .cbp-l-caption-title, .news-post-list h1{
+    font-size: 12px;
+    line-height: 19px;
+	}
+	.caption-panel h3 > span, .intro-03 h6 > span, 
+	.intro-03 h5, .intro-05 h3 > span, .main-heading > span, 
+	.welcome-text-sub, .team-stage h6, .address-wrap h3, .single-project h5 > span,
+	.cbp-l-filters-alignCenter .cbp-filter-item {
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	}
+	.featured-thumb a{
+		font-size: 9px;
+		line-height: 16px;
+		letter-spacing: 0;
+	}
+	.intro-03 h2 {
+		margin-top: 50px;
+	}
+	.intro-03 h5 {
+		margin-top: 50px;
+	}
+	.main-heading > span {
+    letter-spacing: 0px;
+	}
+	.mi-slider ul li{
+		width: 70%;
+	}
+	.features-inner, .promo-inner{
+		padding: 70px 40px;
+		text-align: center;
+	}
+	.feature-icon i{
+		display: inline-block;
+		float: none;
+		margin-top: 30px;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.cbp-l-caption-title, .cbp-l-caption-desc{
+		text-align: center;
+	}
+	.explore-link{
+		text-align: center;
+	}
+	.contact-item{
+		padding: 10px;
+	}
+
+}
+
+
+

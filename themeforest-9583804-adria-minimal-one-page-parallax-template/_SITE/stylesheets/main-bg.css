@@ -1,0 +1,82 @@
+/*MAIN-BG.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that intializes BG Images used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: ADRIA.*/
+/* Author: Designova.*/
+/* Website: http://www.designova.net */
+/* Copyright: (C) 2014 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------*/
+/* INTRO / HOME VARIANTS */
+/*--------------------------------------------------------------*/
+
+/*INTRO-01*/
+.featured-thumb-01{
+	background-image: url('http://placehold.it/500x330');
+}
+.featured-thumb-02{
+	background-image: url('http://placehold.it/500x330');
+}
+.featured-thumb-03{
+	background-image: url('http://placehold.it/500x330');
+}
+.featured-thumb-04{
+	background-image: url('http://placehold.it/500x330');
+}
+/*INTRO-02*/
+.intro-02{
+	background-image: url('http://placehold.it/1500x1050');
+}
+/*INTRO-03*/
+.intro-03{
+	background-image: url('http://placehold.it/1500x1050');
+}
+/*INTRO-04*/
+.intro-04{
+	background-image: url('http://placehold.it/1500x1050');
+}
+/*INTRO-05*/
+.intro-05-carousel-item-01{
+	background-image: url('http://placehold.it/1500x1050');
+}
+.intro-05-carousel-item-02{
+	background-image: url('http://placehold.it/1500x1050');
+}
+.intro-05-carousel-item-03{
+	background-image: url('http://placehold.it/1500x1050');
+}
+.intro-05-carousel-item-04{
+	background-image: url('http://placehold.it/1500x1050');
+}
+/*INTRO-06*/
+.wallpaper-panel{
+	background-image: url('http://placehold.it/1500x1050');
+}
+
+/*--------------------------------------------------------------*/
+/* PAGES AND SECTIONS */
+/*--------------------------------------------------------------*/
+.about-bg{
+	background-image: url('http://placehold.it/1500x1050');
+}
+.features-bg{
+	background-image: url('http://placehold.it/1500x1050');
+}
+.promo-bg{
+	background-image: url('http://placehold.it/1500x1050');
+}
+/*SINGLE PROJECT PAGE demo*/
+.single-project-carousel-item-01{
+	background-image: url('http://placehold.it/1500x1050');
+}
+.single-project-carousel-item-02{
+	background-image: url('http://placehold.it/1500x1050');
+}
+
+/*--------------------------------------------------------------*/
+/* MISC ELEMENTS */
+/*--------------------------------------------------------------*/
+

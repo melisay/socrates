@@ -1,0 +1,35 @@
+
+.intro-03 h6 > span{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 200;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: solid 2px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.intro-03 h2{
+	font-size: 64px;
+	line-height: 71px;
+	font-weight: 200;
+	margin-bottom: 40px;
+}
+.intro-03 h5{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-bottom: 40px;
+}
+.intro-03 h1{
+	font-size: 64px;
+	line-height: 71px;
+	font-weight: 200;
+	margin-bottom: 40px;
+}
+.tp-bannertimer{
+	height: 4px !important;
+}

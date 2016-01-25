@@ -1,0 +1,73 @@
+
+.intro-05{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.intro-05 h1{
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 200;
+}
+.intro-05 h1 > strong{
+	font-size: 48px;
+	line-height: 55px;
+	font-weight: 200;
+}
+.intro-05 h3{
+	margin-bottom: 30px;
+}
+.intro-05 h3>span{
+	font-size: 32px;
+	line-height: 39px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	border:solid 2px;
+	padding: 7px 5px 5px 11px;
+}
+.explore-link{
+	margin-top: 25px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+.explore-link a{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 200;
+	font-style: italic;
+}
+.explore-link a:before{
+	content: '';
+	height: 1px;
+	width: 30px;
+	background: #000;
+	display: inline-block;
+	position: absolute;
+	bottom: 12px;
+	margin-left: -40px;
+}
+.explore-link a:after{
+	content: '';
+	height: 1px;
+	width: 30px;
+	background: #000;
+	display: inline-block;
+	position: absolute;
+	bottom: 12px;
+	margin-left: 10px;
+}
+.intro-05-carousel-item{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.intro-05 .owl-wrapper-outer{
+	height: 100% !important;
+}
+.intro-05-carousel .owl-next{
+	background: transparent url(../images/next-dark.png) no-repeat center center !important;
+}
+.intro-05-carousel .owl-prev{
+	background: transparent url(../images/prev-dark.png) no-repeat center center !important;
+}

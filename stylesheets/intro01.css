@@ -1,0 +1,102 @@
+.intro-01{
+
+}
+.caption-panel{
+	text-align: center;
+}
+.caption-panel h1{
+	font-size: 64px;
+	line-height: 71px;
+	font-weight: 300;
+}
+.caption-panel h3{
+	margin-bottom: 30px;
+}
+.caption-panel h3>span{
+	font-size: 12px;
+	line-height: 19px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	border:solid 2px;
+	padding: 7px 5px 5px 11px;
+}
+
+.intro-01 .text-rotator span{
+	font-size: 64px;
+	line-height: 71px;
+	font-weight: 200;
+	font-style: italic;
+}
+.explore-link{
+	margin-top: 30px;
+}
+.explore-link a{
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 200;
+	font-style: italic;
+}
+.featured-panel{
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+.featured-thumb{
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.featured-thumb-overlay{
+	background-color: rgba(0,0,0,0.8);
+}
+.featured-thumb a{
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.featured-thumb-overlay{
+	height: 120px;
+}
+
+
+
+/* Container box to set the sides relative to */
+.cube {
+	float: left;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	margin: 0;
+	height: 120px;
+ 
+	-webkit-transition: -webkit-transform .80s;
+	transition: transform .80s; /* Animate the transform properties */
+ 
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d; /* <-NB */
+}
+ 
+/* The two faces of the cube */
+.flippety,.flop {
+	height: 120px;
+}
+ 
+/* Position the faces */
+.flippety {
+	-webkit-transform: translateZ(60px);
+	transform: translateZ(60px);
+}
+ 
+.flop {
+	-webkit-transform: rotateX(-90deg) translateZ(-60px);
+	transform: rotateX(-90deg) translateZ(-60px);
+}
+ 
+/* Rotate the cube */
+.cube:hover {
+	-webkit-transform: rotateX(89deg);
+	transform: rotateX(89deg); /* Text bleed at 90º */
+}
